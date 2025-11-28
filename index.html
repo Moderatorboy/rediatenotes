@@ -26,6 +26,10 @@
           link.setAttribute("download", "");
           container.appendChild(link);
         });
+      })
+      .catch(err => {
+        document.getElementById("notes").textContent = "❌ Notes could not be loaded.";
+        console.error(err);
       });
   </script>
 </body>
