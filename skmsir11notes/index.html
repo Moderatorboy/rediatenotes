@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rediate Notes</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #f9f9f9; }
+    h1 { text-align: center; color: #007acc; }
+    a { display: block; margin: 0.5rem 0; padding: 0.5rem; background: #007acc; color: white; text-decoration: none; border-radius: 5px; }
+    a:hover { background: #005fa3; }
+  </style>
+</head>
+<body>
+  <h1>📘 Rediate Notes</h1>
+  <div id="notes"></div>
+
+  <script>
+    fetch("src/notes.json")
+      .then(res => res.json())
+      .then(notes => {
+        const container = document.getElementById("notes");
+        notes.forEach(note => {
+          const link = document.createElement("a");
+          link.href = note.url;
+          link.textContent = "📒 " + note.title;
+          link.setAttribute("download", "");
+          container.appendChild(link);
+        });
+      });
+  </script>
+</body>
+</html>
