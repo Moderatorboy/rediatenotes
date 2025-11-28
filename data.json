@@ -1,0 +1,236 @@
+[
+  {
+    "class": "12th",
+    "subjects": [
+      {
+        "name": "SKM Sir",
+        "chapters": [
+          {
+            "name": "boc",
+            "lectures": [
+              {
+                "title": "Basic-Organic-Chemistry-L01",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L01.pdf"
+              },
+              {
+                "title": "Basic-Organic-Chemistry-L02",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L02.pdf"
+              },
+              {
+                "title": "Basic-Organic-Chemistry-L03",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L03.pdf"
+              },
+              {
+                "title": "Basic-Organic-Chemistry-L04",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L04.pdf"
+              },
+              {
+                "title": "Basic-Organic-Chemistry-L05",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L05.pdf"
+              },
+              {
+                "title": "Basic-Organic-Chemistry-L06",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L06.pdf"
+              },
+              {
+                "title": "Basic-Organic-Chemistry-L07",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L07.pdf"
+              },
+              {
+                "title": "Basic-Organic-Chemistry-L08",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L08.pdf"
+              },
+              {
+                "title": "Basic-Organic-Chemistry-L09",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L09.pdf"
+              },
+              {
+                "title": "Basic-Organic-Chemistry-L10",
+                "pdf": "pdfs/skmsir11notes/boc/Basic-Organic-Chemistry-L10.pdf"
+              }
+            ]
+          },
+          {
+            "name": "goc",
+            "lectures": [
+              {
+                "title": "General-Organic-Chemistry-L01",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L01.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L02",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L02.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L03",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L03.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L04",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L04.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L05",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L05.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L06",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L06.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L07",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L07.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L08",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L08.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L09",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L09.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L10",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L10.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L11",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L11.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L12",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L12.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L13",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L13.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L14",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L14.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L15",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L15.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L16",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L16.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L17",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L17.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L18",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L18.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L19",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L19.pdf"
+              },
+              {
+                "title": "General-Organic-Chemistry-L20",
+                "pdf": "pdfs/skmsir11notes/goc/General-Organic-Chemistry-L20.pdf"
+              }
+            ]
+          },
+          {
+            "name": "isomerism",
+            "lectures": [
+              {
+                "title": "Isomerism-L01",
+                "pdf": "pdfs/skmsir11notes/isomerism/Isomerism-L01.pdf"
+              },
+              {
+                "title": "Isomerism-L02",
+                "pdf": "pdfs/skmsir11notes/isomerism/Isomerism-L02.pdf"
+              },
+              {
+                "title": "Isomerism-L03",
+                "pdf": "pdfs/skmsir11notes/isomerism/Isomerism-L03.pdf"
+              },
+              {
+                "title": "Isomerism-L04",
+                "pdf": "pdfs/skmsir11notes/isomerism/Isomerism-L04.pdf"
+              },
+              {
+                "title": "Isomerism-L05",
+                "pdf": "pdfs/skmsir11notes/isomerism/Isomerism-L05.pdf"
+              },
+              {
+                "title": "Isomerism-L06",
+                "pdf": "pdfs/skmsir11notes/isomerism/Isomerism-L06.pdf"
+              },
+              {
+                "title": "Isomerism-L07",
+                "pdf": "pdfs/skmsir11notes/isomerism/Isomerism-L07.pdf"
+              },
+              {
+                "title": "Isomerism-L08",
+                "pdf": "pdfs/skmsir11notes/isomerism/Isomerism-L08.pdf"
+              }
+            ]
+          },
+          {
+            "name": "nomenclature",
+            "lectures": [
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L01",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L01.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L02",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L02.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L03",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L03.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L04",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L04.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L05",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L05.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L06",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L06.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L07",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L07.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L08",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L08.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L09",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L09.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L10",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L10.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L11",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L11.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L12",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L12.pdf"
+              },
+              {
+                "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L13",
+                "pdf": "pdfs/skmsir11notes/nomenclature/Classification-And-Nomenclature-Of-Organic-Compounds-L13.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
