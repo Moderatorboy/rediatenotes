@@ -6,7 +6,8 @@
   <style>
     body { font-family: Arial, sans-serif; padding: 2rem; background: #f9f9f9; }
     h1 { text-align: center; color: #007acc; }
-    a { display: block; margin: 0.5rem 0; padding: 0.5rem; background: #007acc; color: white; text-decoration: none; border-radius: 5px; }
+    .note { margin: 0.5rem 0; }
+    a { margin-right: 1rem; padding: 0.5rem; background: #007acc; color: white; text-decoration: none; border-radius: 5px; }
     a:hover { background: #005fa3; }
   </style>
 </head>
@@ -20,11 +21,25 @@
       .then(notes => {
         const container = document.getElementById("notes");
         notes.forEach(note => {
-          const link = document.createElement("a");
-          link.href = note.url;
-          link.textContent = "📒 " + note.title;
-          link.setAttribute("download", "");
-          container.appendChild(link);
+          const wrapper = document.createElement("div");
+          wrapper.className = "note";
+
+          // Open button
+          const openLink = document.createElement("a");
+          openLink.href = note.url;
+          openLink.textContent = "📘 Open " + note.title;
+          openLink.target = "_blank";
+          openLink.rel = "noopener noreferrer";
+
+          // Download button
+          const downloadLink = document.createElement("a");
+          downloadLink.href = note.url;
+          downloadLink.textContent = "📥 Download";
+          downloadLink.setAttribute("download", "");
+
+          wrapper.appendChild(openLink);
+          wrapper.appendChild(downloadLink);
+          container.appendChild(wrapper);
         });
       })
       .catch(err => {
