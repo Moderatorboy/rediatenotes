@@ -1,51 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Rediate Notes</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; background: #f9f9f9; }
-    h1 { text-align: center; color: #007acc; }
-    .note { margin: 0.5rem 0; }
-    a { margin-right: 1rem; padding: 0.5rem; background: #007acc; color: white; text-decoration: none; border-radius: 5px; }
-    a:hover { background: #005fa3; }
-  </style>
-</head>
-<body>
-  <h1>📘 Rediate Notes</h1>
-  <div id="notes"></div>
-
-  <script>
-    fetch("src/notes.json")
-      .then(res => res.json())
-      .then(notes => {
-        const container = document.getElementById("notes");
-        notes.forEach(note => {
-          const wrapper = document.createElement("div");
-          wrapper.className = "note";
-
-          // Open button
-          const openLink = document.createElement("a");
-          openLink.href = note.url;
-          openLink.textContent = "📘 Open " + note.title;
-          openLink.target = "_blank";
-          openLink.rel = "noopener noreferrer";
-
-          // Download button
-          const downloadLink = document.createElement("a");
-          downloadLink.href = note.url;
-          downloadLink.textContent = "📥 Download";
-          downloadLink.setAttribute("download", "");
-
-          wrapper.appendChild(openLink);
-          wrapper.appendChild(downloadLink);
-          container.appendChild(wrapper);
-        });
-      })
-      .catch(err => {
-        document.getElementById("notes").textContent = "❌ Notes could not be loaded.";
-        console.error(err);
-      });
-  </script>
-</body>
-</html>
+<div id="notes"></div>
+<script>
+  fetch('./notes.json')  // yaha ./src/notes.json mat likhna
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById('notes').innerHTML = data.map(note => `
+        <div class="note-card">
+          <p>${note.title}</p>
+          <a href="${note.url}" download>
+            <button>📥 Download</button>
+          </a>
+        </div>
+      `).join('');
+    });
+</script>
