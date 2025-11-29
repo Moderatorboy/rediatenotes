@@ -6,7 +6,7 @@
         "name": "SKM Sir",
         "chapters": [
           {
-            "name": "boc",
+            "name": "BASIC ORGANIC CHEMISTRY",
             "lectures": [
               {
                 "title": "Basic-Organic-Chemistry-L01",
@@ -51,7 +51,7 @@
             ]
           },
           {
-            "name": "goc",
+            "name": "GENERAL ORGANIC CHEMISTRY",
             "lectures": [
               {
                 "title": "General-Organic-Chemistry-L01",
@@ -136,7 +136,7 @@
             ]
           },
           {
-            "name": "isomerism",
+            "name": "ISOMERISM",
             "lectures": [
               {
                 "title": "Isomerism-L01",
@@ -173,7 +173,7 @@
             ]
           },
           {
-            "name": "nomenclature",
+            "name": "CLASSIFICATION AND NOMENCLATURE",
             "lectures": [
               {
                 "title": "Classification-And-Nomenclature-Of-Organic-Compounds-L01",
